@@ -2,18 +2,18 @@
 
 
 - [X]  What we'll be building
-- [ ]  Start your REACT project (npx)
-- [ ]  Create app on Firebase
-- [ ]  Start your react app locally
-- [ ]  Clean up your REACT app
+- [X]  Start your REACT project (npx)
+- [X]  Create app on Firebase
+- [X]  Start your react app locally
+- [X]  Clean up your REACT app
 - [ ]  Create input field
 - [ ]  Add firebase hosting to your app
 - [ ]  Add ability to send message
 - [ ]  Question: Why use state instead of a normal variable?
-- [ ]  Let's use Material-UI
-- [ ]  CSS Styling
-- [ ]  Add Image, Username, and Caption to Instagram Post
-- [ ]  Render out multiple Posts
+- [X]  Let's use Material-UI
+- [X]  CSS Styling
+- [X]  Add Image, Username, and Caption to Instagram Post
+- [X]  Render out multiple Posts
 - [ ]  Is React better than Node.JS for back-end?
 - [ ]  How to implement Firebase Database
 - [ ]  Access Database, Authentication, and Storage from Firebase
