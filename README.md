@@ -7,15 +7,15 @@
 - [X]  Start your react app locally
 - [X]  Clean up your REACT app
 - [ ]  Create input field
-- [ ]  Add firebase hosting to your app
+- [X]  Add firebase hosting to your app
 - [ ]  Add ability to send message
 - [ ]  Question: Why use state instead of a normal variable?
 - [X]  Let's use Material-UI
 - [X]  CSS Styling
 - [X]  Add Image, Username, and Caption to Instagram Post
 - [X]  Render out multiple Posts
-- [ ]  Is React better than Node.JS for back-end?
-- [ ]  How to implement Firebase Database
+- [X]  Is React better than Node.JS for back-end?
+- [X]  How to implement Firebase Database
 - [ ]  Access Database, Authentication, and Storage from Firebase
 - [ ]  How to use useEffect to Push and Pull data from Database
 - [ ]  Firebase User Authentication
