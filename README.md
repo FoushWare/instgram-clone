@@ -19,7 +19,7 @@
 - [X]  Access Database, Authentication, and Storage from Firebase
 - [X]  How to use useEffect to Push and Pull data from Database
 - [X]  Firebase User Authentication
-- [ ]  Storing IG posts & images in Firebase
+- [X]  Storing InstaGram posts & images in Firebase
 - [ ]  Styling Image Uploader
 - [ ]  Styling the Instagram Clone App
 - [ ]  Add Comments to Instagram Posts

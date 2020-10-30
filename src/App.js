@@ -5,6 +5,7 @@ import {db,auth} from './firebase';
 import Button from '@material-ui/core/Button';
 import { makeStyles } from '@material-ui/core/styles';
 import {  Modal,Input } from '@material-ui/core';
+import ImageUpload from './ImageUpload'
 
 
 //Start ...... Style for the Modal 
@@ -101,11 +102,12 @@ useEffect(()=>{
 },[user,username])
 
 
+// GET THE POSTS FROM FIREBASE DATABASE 
 
   // Runs code based on condition useEffect(()=> { //Code},condtion)  :if the conditon is empty it run once the App component rendered 
   useEffect(()=>{
     //Code
-    db.collection('posts').onSnapshot(snapshot=>{
+    db.collection('posts').orderBy('timestamp','desc').onSnapshot(snapshot=>{
       //Every time a new post is added , this code fire
       setPosts(snapshot.docs.map(doc=>({
           id:doc.id,
@@ -122,6 +124,8 @@ useEffect(()=>{
   return (
     <>
 
+    {user?.displayName?<ImageUpload username={user.displayName}/>:<div>Sorry you need to login to upload post</div>}
+    
 
     <Modal open={open} onClose={e => setOpen(false)}>
                     <div className={classes.paper}>
@@ -235,7 +239,10 @@ useEffect(()=>{
     {
       posts.map(({id,post})=>(
 
-        <Post key={id} username={post.username} caption={post.caption} imageUrl={post.imageUrl}/>
+      (post.username && post.caption && post.imageUrl)?
+
+          <Post key={id} username={post.username} caption={post.caption} imageUrl={post.imageUrl}/>:''
+        
         )
       )
     }
