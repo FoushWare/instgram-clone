@@ -6,19 +6,19 @@
 - [X]  Create app on Firebase
 - [X]  Start your react app locally
 - [X]  Clean up your REACT app
-- [ ]  Create input field
+- [X]  Create input field
 - [X]  Add firebase hosting to your app
-- [ ]  Add ability to send message
-- [ ]  Question: Why use state instead of a normal variable?
+- [X]  Add ability to send message
+- [X]  Question: Why use state instead of a normal variable?
 - [X]  Let's use Material-UI
 - [X]  CSS Styling
 - [X]  Add Image, Username, and Caption to Instagram Post
 - [X]  Render out multiple Posts
 - [X]  Is React better than Node.JS for back-end?
 - [X]  How to implement Firebase Database
-- [ ]  Access Database, Authentication, and Storage from Firebase
-- [ ]  How to use useEffect to Push and Pull data from Database
-- [ ]  Firebase User Authentication
+- [X]  Access Database, Authentication, and Storage from Firebase
+- [X]  How to use useEffect to Push and Pull data from Database
+- [X]  Firebase User Authentication
 - [ ]  Storing IG posts & images in Firebase
 - [ ]  Styling Image Uploader
 - [ ]  Styling the Instagram Clone App
