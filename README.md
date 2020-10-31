@@ -21,7 +21,7 @@
 - [X]  Firebase User Authentication
 - [X]  Storing InstaGram posts & images in Firebase
 - [X]  Styling Image Uploader
-- [ ]  Styling the Instagram Clone App
+- [X]  Styling the Instagram Clone App
 - [ ]  Add Comments to Instagram Posts
 - [ ]  Final Step: Deploying our Instagram App to Firebase
 
