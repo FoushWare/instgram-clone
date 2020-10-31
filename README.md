@@ -20,7 +20,7 @@
 - [X]  How to use useEffect to Push and Pull data from Database
 - [X]  Firebase User Authentication
 - [X]  Storing InstaGram posts & images in Firebase
-- [ ]  Styling Image Uploader
+- [X]  Styling Image Uploader
 - [ ]  Styling the Instagram Clone App
 - [ ]  Add Comments to Instagram Posts
 - [ ]  Final Step: Deploying our Instagram App to Firebase

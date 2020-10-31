@@ -6,6 +6,8 @@ import Button from '@material-ui/core/Button';
 import { makeStyles } from '@material-ui/core/styles';
 import {  Modal,Input } from '@material-ui/core';
 import ImageUpload from './ImageUpload'
+import Alert from '@material-ui/lab/Alert';
+
 
 
 //Start ...... Style for the Modal 
@@ -67,6 +69,11 @@ function App() {
 };
 
 
+  
+
+  
+  
+
 const signIn=(e)=>{
   e.preventDefault();
 
@@ -124,7 +131,7 @@ useEffect(()=>{
   return (
     <>
 
-    {user?.displayName?<ImageUpload username={user.displayName}/>:<div>Sorry you need to login to upload post</div>}
+    
     
 
     <Modal open={open} onClose={e => setOpen(false)}>
@@ -233,6 +240,13 @@ useEffect(()=>{
     
 
 
+        {user?.displayName?<ImageUpload username={user.displayName}/>:   
+      <>
+      
+      <center><Alert severity="info">Sorry you need to login to upload post</Alert></center>
+      </>
+      }
+
 {/* *****    Start    Body of the App [Posts] fetched from the firebase service      ***** */}
 
 
@@ -249,6 +263,8 @@ useEffect(()=>{
 
       
 {/* *****    End    Body of the App [Posts] fetched from the firebase service      ***** */}
+
+
 
 
 
